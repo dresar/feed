@@ -1,0 +1,155 @@
+import type { EngineField } from "../engines";
+
+export const GRID_9_FIELDS: EngineField[] = [
+  // 1. Brief & Identitas 9-Grid
+  {
+    name: "brand",
+    label: "Nama Brand / Personal Brand",
+    type: "text",
+    group: "1. Identitas & Brand Universe",
+    placeholder: "EKA SYARIF MAULANA / AuraSkin / Nexus Studio",
+    required: true,
+  },
+  {
+    name: "product",
+    label: "Subjek Utama (Portfolio / Produk / Jasa / Event)",
+    type: "textarea",
+    group: "1. Identitas & Brand Universe",
+    placeholder: "Contoh: Personal Brand Portfolio Full-Stack Developer & AI Builder / Koleksi Skincare Glow 7 Hari",
+    required: true,
+  },
+  {
+    name: "category",
+    label: "Niche & Kategori Industri",
+    type: "text",
+    group: "1. Identitas & Brand Universe",
+    placeholder: "Personal Branding / Technology / Skincare / F&B Cafe / Fashion Streetwear",
+  },
+  {
+    name: "grid_theme",
+    label: "Konsep Cerita 9-Grid (Storytelling Narrative)",
+    type: "select",
+    group: "1. Identitas & Brand Universe",
+    options: [
+      "Personal Portfolio & Professional Showcase",
+      "Peluncuran Produk Baru (Product Launching 3x3)",
+      "Brand Story & Company Profile Panorama",
+      "Katalog Menu & Kuliner Aesthetic Flow",
+      "Promo Mega Sale & Flash Diskon Matrix",
+      "Edukasi & Checklist Solusi Masalah",
+    ],
+  },
+  {
+    name: "audience",
+    label: "Target Audiens & Persona",
+    type: "textarea",
+    group: "1. Identitas & Brand Universe",
+    placeholder: "Recruiter, perusahaan startup, calon klien, founder bisnis, penonton umum",
+  },
+
+  // 2. Pesan & Strategi Konversi
+  {
+    name: "headline",
+    label: "Headline Utama Kampanye (Anchor Message)",
+    type: "text",
+    group: "2. Pesan & Strategi Konversi",
+    placeholder: "I BUILD DIGITAL PRODUCTS / GLOW IN 7 DAYS",
+    required: true,
+  },
+  {
+    name: "copy",
+    label: "Poin Keunggulan / Value Proposition (Copy)",
+    type: "textarea",
+    group: "2. Pesan & Strategi Konversi",
+    placeholder: "Portfolio yang menampilkan karya website, mobile apps, sistem AI, 50+ completed projects",
+  },
+  {
+    name: "offer",
+    label: "Penawaran / Bukti Kompetensi / Promo",
+    type: "text",
+    group: "2. Pesan & Strategi Konversi",
+    placeholder: "Eksplorasi project lengkap, 25 sertifikasi, diskon spesial launching",
+  },
+  {
+    name: "cta",
+    label: "Call to Action (CTA) di Post 09",
+    type: "text",
+    group: "2. Pesan & Strategi Konversi",
+    placeholder: "EXPLORE MY WORK → inka.my.id / KLIK LINK DI BIO",
+  },
+
+  // 3. Kontinuitas Visual 9-Grid (Shared Universe)
+  {
+    name: "color",
+    label: "Sistem Warna Bersama 9-Grid (Color Palette)",
+    type: "textarea",
+    group: "3. Kontinuitas Visual 9-Grid (Seamless)",
+    placeholder: "Dominant deep charcoal #111318, warm off-white #F5F3EE, accent electric blue #4F7CFF",
+    required: true,
+  },
+  {
+    name: "background",
+    label: "Latar Belakang Berkesinambungan (Shared Environment)",
+    type: "textarea",
+    group: "3. Kontinuitas Visual 9-Grid (Seamless)",
+    placeholder: "Modern dark editorial technology environment dengan subtle grid lines, glass panels, ambient glow",
+    required: true,
+  },
+  {
+    name: "product_photo",
+    label: "Elemen Subjek & Objek Visual Per Post",
+    type: "textarea",
+    group: "3. Kontinuitas Visual 9-Grid (Seamless)",
+    placeholder: "Portrait profesional, browser mockups, UI cards, laptop workstation, subtle 3D objects",
+  },
+  {
+    name: "supporting",
+    label: "Elemen Visual Penghubung Antar-Panel (Flow Elements)",
+    type: "textarea",
+    group: "3. Kontinuitas Visual 9-Grid (Seamless)",
+    placeholder: "Garis koneksi biru elektrik yang mengalir antar feed, frame browser melintasi batas slide, icon tech stack",
+  },
+  {
+    name: "lighting",
+    label: "Setup Pencahayaan 9-Grid",
+    type: "select",
+    group: "3. Kontinuitas Visual 9-Grid (Seamless)",
+    options: [
+      "Dramatic Low-Key Moody Studio (4500K-5200K Soft Glow)",
+      "High-Key Clean Daylight (5600K Minimalist Studio)",
+      "Warm Cinematic Golden Hour (3200K Ambient)",
+      "Cyberpunk Neon Violet & Electric Blue Glow",
+      "Soft Diffused Architectural Lighting",
+    ],
+  },
+  {
+    name: "typography",
+    label: "Sistem Gaya Tipografi Konsisten",
+    type: "select",
+    group: "3. Kontinuitas Visual 9-Grid (Seamless)",
+    options: [
+      "Modern Bold Neo-Grotesk (Swiss Design Architecture)",
+      "Clean Minimalist Monospace Tech & Code Aesthetic",
+      "High-End Editorial Luxury Serif",
+      "Condensed Bold Commercial Headline",
+    ],
+  },
+  {
+    name: "density",
+    label: "Kepadatan Tata Letak (Layout Density)",
+    type: "select",
+    group: "3. Kontinuitas Visual 9-Grid (Seamless)",
+    options: [
+      "Balanced (Standar Instagram - Whitespace Proporsional)",
+      "Minimalist & Clean (Fokus Hero + Banyak Ruang Kosong)",
+      "Information-Rich Portfolio (Padat Data & Showcase)",
+    ],
+  },
+  {
+    name: "additional_notes",
+    label: "Catatan Khusus Urutan Storytelling Post 1 s/d Post 9",
+    type: "textarea",
+    group: "3. Kontinuitas Visual 9-Grid (Seamless)",
+    placeholder: "Post 1 perkenalan, Post 2 milestone 50+ projects, Post 3 services, Post 4-5 hero projects, Post 6 tech stack, Post 7 journey, Post 8 certificate, Post 9 closing CTA.",
+  },
+];

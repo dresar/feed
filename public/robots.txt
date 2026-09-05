@@ -1,0 +1,33 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/admin/
+Disallow: /settings
+Disallow: /result/
+
+# Specific Search Engine Directives
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+Disallow: /api/admin/
+
+User-agent: Googlebot-Image
+Allow: /
+Allow: /brand-logo.png
+Allow: /samples/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /admin/
+Disallow: /api/admin/
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# Sitemap & Host
+Host: https://feedai.my.id
+Sitemap: https://feedai.my.id/sitemap.xml

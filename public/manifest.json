@@ -1,0 +1,29 @@
+{
+  "name": "InstaPrompt Forge",
+  "short_name": "InstaForge",
+  "description": "AI Commercial Prompt Studio — 12 Creative Engines untuk konten Instagram, Ads, Feed & Story profesional.",
+  "start_url": "/user/dashboard",
+  "display": "standalone",
+  "background_color": "#0c0a12",
+  "theme_color": "#f43f5e",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/brand-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/brand-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "design", "business"],
+  "screenshots": [],
+  "lang": "id",
+  "dir": "ltr"
+}

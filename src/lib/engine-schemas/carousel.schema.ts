@@ -1,0 +1,78 @@
+import type { EngineField } from "../engines";
+
+export const CAROUSEL_FIELDS: EngineField[] = [
+  {
+    name: "brand",
+    label: "Nama Brand / Akun Kreator",
+    type: "text",
+    group: "1. Brief Carousel",
+    placeholder: "Nama Brand / @username",
+    required: true,
+  },
+  {
+    name: "product",
+    label: "Topik / Masalah / Pembahasan Utama",
+    type: "textarea",
+    group: "1. Brief Carousel",
+    placeholder: "5 Kesalahan Fatal Merawat Kulit Kering / Rahasia Tingkatkan Penjualan 3x Lipat",
+    required: true,
+  },
+  {
+    name: "slide_count",
+    label: "Jumlah Slide Carousel",
+    type: "select",
+    group: "1. Brief Carousel",
+    options: ["5 Slides (Rekomendasi Standar)", "7 Slides (Deep Story)", "10 Slides (Katalog Lengkap)"],
+  },
+  {
+    name: "target_audience",
+    label: "Target Pembaca Carousel",
+    type: "text",
+    group: "1. Brief Carousel",
+    placeholder: "Audiens yang mencari solusi praktis dan edukasi cepat",
+  },
+  {
+    name: "headline",
+    label: "Hook Headline Slide 1 (Bakar Rasa Penasaran)",
+    type: "text",
+    group: "2. Alur Slide & Storytelling",
+    placeholder: "JANGAN LAKUKAN INI SEBELUM TERLAMBAT! 🛑",
+    required: true,
+  },
+  {
+    name: "copy",
+    label: "Poin-Poin Isi Slide Edukasi (Slide 2 - 4)",
+    type: "textarea",
+    group: "2. Alur Slide & Storytelling",
+    placeholder: "Slide 2: Masalah utama, Slide 3: Fakta mengejutkan, Slide 4: Solusi tepat dari produk kami",
+  },
+  {
+    name: "cta",
+    label: "Call to Action di Slide Terakhir",
+    type: "text",
+    group: "2. Alur Slide & Storytelling",
+    placeholder: "Simpan postingan ini & Klik link di bio untuk konsultasi gratis!",
+  },
+  {
+    name: "color",
+    label: "Palet Warna Carousel",
+    type: "text",
+    group: "3. Visual & Gaya Grafis",
+    placeholder: "Deep navy #0A192F, Electric Cyan #64FFDA, Crisp White #FFFFFF",
+    required: true,
+  },
+  {
+    name: "background",
+    label: "Latar Belakang & Elemen Garis Sambung (Flow Line)",
+    type: "textarea",
+    group: "3. Visual & Gaya Grafis",
+    placeholder: "Garis grafik mulus yang terhubung dari slide 1 ke slide berikutnya saat digeser (swipe)",
+  },
+  {
+    name: "lighting",
+    label: "Atmosfer Pencahayaan",
+    type: "select",
+    group: "3. Visual & Gaya Grafis",
+    options: ["Modern Clean Editorial", "High-Tech Dark Mode Glow", "Warm Humanist Lifestyle"],
+  },
+];

@@ -1,0 +1,86 @@
+import type { EngineField } from "../engines";
+
+export const MENU_FNB_FIELDS: EngineField[] = [
+  {
+    name: "brand",
+    label: "Nama Restoran / Cafe / Brand Kuliner",
+    type: "text",
+    group: "1. Brief Kuliner & Menu",
+    placeholder: "Kopi Sudut Temu / Resto Padang Modern / Burger Bros",
+    required: true,
+  },
+  {
+    name: "product",
+    label: "Nama & Detail Menu Makanan / Minuman",
+    type: "textarea",
+    group: "1. Brief Kuliner & Menu",
+    placeholder: "Double Smash Wagyu Burger dengan melted cheddar cheese, caramelized onions, dan brioche bun berkilau",
+    required: true,
+  },
+  {
+    name: "category",
+    label: "Kategori Kuliner (F&B)",
+    type: "text",
+    group: "1. Brief Kuliner & Menu",
+    placeholder: "Fast Food Gourmet / Artisan Coffee / Traditional Indonesian / Dessert & Bakery",
+  },
+  {
+    name: "appetite_elements",
+    label: "Detail Appetite Appeal (Menggugah Selera)",
+    type: "textarea",
+    group: "2. Visual Menggugah Selera (Appetite Appeal)",
+    placeholder: "Uap panas mengepul, saus meleleh berkilau (sauce glisten), remahan renyah crispy, tetesan embun segar pada gelas dingin",
+    required: true,
+  },
+  {
+    name: "camera_angle",
+    label: "Sudut Kamera Food Photography",
+    type: "select",
+    group: "2. Visual Menggugah Selera (Appetite Appeal)",
+    options: [
+      "45-Degree Classic Food Angle (Sudut Pandang Makan)",
+      "Flatlay Overhead 90-Degree (Table Spread Aesthetic)",
+      "Extreme Close-Up Macro (Fokus Tekstur Lelehan)",
+      "Eye-Level Hero Shot (Tinggi Layer Burger / Minuman)",
+    ],
+  },
+  {
+    name: "background",
+    label: "Piring, Meja & Properti Tambahan",
+    type: "text",
+    group: "2. Visual Menggugah Selera (Appetite Appeal)",
+    placeholder: "Piring keramik rustic matte hitam di atas meja kayu jati tua dengan taburan bumbu rempah segar",
+  },
+  {
+    name: "lighting",
+    label: "Pencahayaan Makanan",
+    type: "select",
+    group: "2. Visual Menggugah Selera (Appetite Appeal)",
+    options: [
+      "Warm Ambient Cafe Daylight (Golden Warmth 3200K)",
+      "Soft Window Backlight (Menonjolkan Uap & Kilau)",
+      "Commercial Studio Food Softbox (Ultra-Crisp 5200K)",
+    ],
+  },
+  {
+    name: "headline",
+    label: "Headline Promo Menu",
+    type: "text",
+    group: "3. Penawaran & Promo",
+    placeholder: "LEZATNYA MELELEH DI SETIAP GIGITAN! 🍔",
+  },
+  {
+    name: "offer",
+    label: "Harga / Paket Combo Promo",
+    type: "text",
+    group: "3. Penawaran & Promo",
+    placeholder: "Paket Combo Hemat Cuma Rp 45.000 (Free Es Teh)",
+  },
+  {
+    name: "cta",
+    label: "Call to Action (Pesan Sekarang)",
+    type: "text",
+    group: "3. Penawaran & Promo",
+    placeholder: "Pesan Sekarang via GoFood / GrabFood / Dine-in",
+  },
+];

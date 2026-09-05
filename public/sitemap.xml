@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!-- Homepage -->
+  <url>
+    <loc>https://feedai.my.id/</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://feedai.my.id/brand-logo.png</image:loc>
+      <image:title>InstaPrompt Forge — Studio AI Generator Prompt Instagram Komersial</image:title>
+      <image:caption>Platform AI Studio #1 untuk meracik prompt visual iklan Instagram, Carousel, Stories, dan Feed.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Katalog Gaya Visual -->
+  <url>
+    <loc>https://feedai.my.id/visual-styles</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Creative Engine 1: Design Grafis -->
+  <url>
+    <loc>https://feedai.my.id/design-grafis</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Creative Engine 2: 9 Feed Konsisten -->
+  <url>
+    <loc>https://feedai.my.id/grid-9</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Creative Engine 3: Carousel Feeds -->
+  <url>
+    <loc>https://feedai.my.id/carousel</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Creative Engine 4: YouTube Thumbnail -->
+  <url>
+    <loc>https://feedai.my.id/youtube-thumbnail</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Creative Engine 5: Typography Ads -->
+  <url>
+    <loc>https://feedai.my.id/typography-ads</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Creative Engine 6: Copywriting & Hooks -->
+  <url>
+    <loc>https://feedai.my.id/copy-writing</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Creative Engine 7: Menu F&B Katalog -->
+  <url>
+    <loc>https://feedai.my.id/menu-fnb</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Creative Engine 8: Direct Ads Conversion -->
+  <url>
+    <loc>https://feedai.my.id/ads</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Creative Engine 9: Stories & Reels 9:16 -->
+  <url>
+    <loc>https://feedai.my.id/stories</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Creative Engine 10: Try-On Produk & Model -->
+  <url>
+    <loc>https://feedai.my.id/try-on-produk</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Creative Engine 11: Review Produk & Testimoni -->
+  <url>
+    <loc>https://feedai.my.id/review-produk</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Creative Engine 12: Logo Produk Generator -->
+  <url>
+    <loc>https://feedai.my.id/logo-produk</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Special Engine: Face Card & Skincare Analysis -->
+  <url>
+    <loc>https://feedai.my.id/face-card-analysis</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Special Engine: Video Storyboard -->
+  <url>
+    <loc>https://feedai.my.id/video-storyboard</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Auth: Login -->
+  <url>
+    <loc>https://feedai.my.id/login</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Auth: Register -->
+  <url>
+    <loc>https://feedai.my.id/register</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>

@@ -19,10 +19,13 @@ import {
   type PromoBannerConfig,
 } from "./token-packages";
 
-const DATABASE_URL =
+const rawDbUrl =
   process.env.DATABASE_URL ||
   process.env.POSTGRES_URL ||
   "";
+
+const cleanDbUrl = rawDbUrl.replace(/^[\uFEFF\xA0\s]+|[\uFEFF\xA0\s]+$/g, "");
+const DATABASE_URL = cleanDbUrl;
 
 if (!DATABASE_URL && process.env.NODE_ENV === "production") {
   console.warn("⚠️ DATABASE_URL is not set in environment variables!");
